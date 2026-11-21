@@ -72,12 +72,12 @@ Las siguientes pruebas deben ejecutarse en la terminal para registrar los result
 
 | Prueba | Datos o acción | Resultado esperado | Resultado obtenido |
 |---|---|---|---|
-| 1 | Solicitar 40 y recibir 38 | Mostrar 2 faltantes | Pendiente |
-| 2 | Solicitar 40 y recibir 40 | Mostrar recepción conforme | Pendiente |
-| 3 | Ingresar cantidad negativa | Rechazar el dato | Pendiente |
-| 4 | Ingresar letras en la cantidad | Rechazar el dato | Pendiente |
-| 5 | Buscar guía registrada | Mostrar la recepción | Pendiente |
-| 6 | Buscar guía inexistente | Mostrar que no se encontró | Pendiente |
+| 1 | Solicitar 40 y recibir 38 | Mostrar 2 faltantes | El programa identificó que se solicitaron 40 cajas y se recibieron 38, por lo que calculó correctamente 2 cajas faltantes y registró la recepción|
+| 2 | Solicitar 40 y recibir 40 | Mostrar recepción conforme | . El programa comprobó que las 40 cajas solicitadas coinciden con las 40 cajas recibidas y registró la recepción como conforme.|
+| 3 | Ingresar cantidad negativa | Rechazar el dato |El programa rechazó el valor negativo (-5), mostrando el mensaje «La cantidad solicitada debe ser mayor que cero» y evitando registrar la recepción. |
+| 4 | Ingresar letras en la cantidad | Rechazar el dato |El programa rechazó las letras ingresadas en la cantidad y mostró un mensaje indicando que debe ser un número mayor que cero. |
+| 5 | Buscar guía registrada | Mostrar la recepción |Prueba realizada correctamente. El programa encontró la recepción mediante su número de guía y mostró los datos registrados, identificando 2 cajas faltantes. |
+| 6 | Buscar guía inexistente | Mostrar que no se encontró | Prueba realizada correctamente. El programa no encontró la guía ingresada porque no existe en los registros almacenados. |
 
 ## 6. Validaciones y correcciones
 
