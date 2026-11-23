@@ -1,6 +1,19 @@
-# Análisis del proceso de recepción de productos en KFC
+# DATOS DEL PROYECTO
 
-## 1. Problema identificado
+**Nombre del proyecto:** Control de recepción de productos KFC
+
+**Nombre del profesor:** [DANNY MANUEL HERRERA]
+
+**Integrantes:**
+- [JACK ANDERSON CRUZ ARTEAGA]
+- [CARLOS LEONARDO LAVADO DE LA CRUZ]
+- [EDUARDO SEBASTIAN MUÑOZ ZURITA]
+
+
+
+# Análisis del proceso de recepción de productos en KFC  
+
+## 1. Problema identificado 
 
 Durante la observación del proceso de recepción de productos se identificó que el registro de cantidades se realiza manualmente. Esta situación puede ocasionar errores de escritura, pérdida de información, dificultades para consultar registros anteriores y diferencias entre las cantidades solicitadas y recibidas.
 
